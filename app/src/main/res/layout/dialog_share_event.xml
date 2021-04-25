@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/side_nav_bar">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:hint="share events"/>
+
+
+
+
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/shared_list_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:listitem="@layout/user_item"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

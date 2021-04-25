@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/side_nav_bar">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:hint="@string/add_event"/>
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="64dp">
+
+    <EditText
+        android:id="@+id/dialog_EDT_content"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="The content of the event"
+        android:autofillHints="" />
+
+
+    <ImageView
+        android:id="@+id/dialog_IMG_micName"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_mic"
+        android:layout_alignRight="@+id/dialog_EDT_content"
+        android:layout_marginTop="12dp">
+
+    </ImageView>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dialog_EDT_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Location Of the Event"
+            android:inputType="text"
+            android:paddingBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/dialog_IMG_micLocation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/dialog_EDT_location"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/ic_mic">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+
+        <TimePicker
+            android:id="@+id/dialog_timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:timePickerMode="spinner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:hint="@string/add_picture"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dialog_IMG_uploadPic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|center"
+            android:src="@drawable/ic_upload_profile_pic" />
+    </LinearLayout>
+
+</LinearLayout>

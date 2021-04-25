@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_CalendarShared"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="Shared Calendar" />
+        <item
+
+            android:id="@+id/nav_birthdayList"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="birthday List" />
+        <item
+            android:id="@+id/nav_close_events"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            android:title="close events" />
+
+        <item
+            android:id="@+id/nav_userProfile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+
+
+    </group>
+
+
+
+</menu>
