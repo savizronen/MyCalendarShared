@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_nav_CalendarShared"
+    app:startDestination="@id/nav_CalendarShared">
+
+    <fragment
+        android:id="@+id/nav_CalendarShared"
+        android:name="com.example.mycalendarshared.fragments.CalendarFragment"
+        android:label="Shared Calendar"
+        tools:layout="@layout/fragment_calender" />
+
+    <fragment
+        android:id="@+id/nav_birthdayList"
+        android:name="com.example.mycalendarshared.fragments.BirthdayListFregment"
+        android:label="birthday List"
+        tools:layout="@layout/activity_birthday_list" />
+
+    <fragment
+        android:id="@+id/nav_close_events"
+        android:name="com.example.mycalendarshared.fragments.CloseEventFragment"
+        android:label="Close Events"
+        tools:layout="@layout/eventlist_fragment" />
+
+    <fragment
+        android:id="@+id/nav_userProfile"
+        android:name="com.example.mycalendarshared.fragments.UserProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fregment_profile" />
+
+
+
+
+
+</navigation>

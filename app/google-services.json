@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840609055109",
+    "project_id": "mycalendarshared",
+    "storage_bucket": "mycalendarshared.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840609055109:android:c27a467a45678f76b004ec",
+        "android_client_info": {
+          "package_name": "com.example.mycalendarshared"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840609055109-5ogcblh2ntq4u56a8jog7lf3eeabih97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6bBf1CjcHHFHr4oGUXJM1hJoAfmLr2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840609055109-5ogcblh2ntq4u56a8jog7lf3eeabih97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
